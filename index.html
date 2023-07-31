@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="container d-block " id="pageOne">
+      
+        <div class="form-one w-75  p-5 mx-auto">
+              <h2 class="text-center mb-3 text-info">Smart Login System</h2>
+
+            <input type="email" class="form-control mb-3" placeholder="enter your email" id="formEmail">
+
+            <input type="password" class="form-control mb-5" placeholder="enter your password" id="formPass">
+
+            <button type="button" class="btn btn-outline-info w-100" onclick="addSmartName()"> login</button>
+
+            <p class="text-center text-white mt-5">Don’t have an account? <a id="aOne">Sign Up</a></p>
+        </div>
+    </div>
+    <div class="container d-none " id="pageTwo">
+      
+        <div class="form-one w-75  p-5 mx-auto">
+              <h2 class="text-center mb-3 text-info">Smart Login System</h2>
+              <input type="text" class="form-control mb-4" placeholder="enter your name" id="formName">
+            <input type="email" class="form-control mb-3" placeholder="enter your email" id="formEmail">
+
+            <input type="password" class="form-control mb-5" placeholder="enter your password" id="formPass">
+
+            <button type="button" class="btn btn-outline-info w-100" onclick="addForms()"> login</button>
+
+            <p class="text-center text-white mt-5">You have an account? <a id="aTwo">Signin</a></p>
+        </div>
+    </div>
+
+    <div class="page d-none" id="pageThree">
+        <nav class="navbar shadow ">
+            <div class="container">
+              <a class="navbar-brand text-white">SMART LOGIN</a>
+              <button class="btn btn-outline-warning" id="loginOut" onclick="loginOut()"> LOGIN</button>
+            </div>
+          </nav>
+           
+            <div class="text-div w-75" id="">
+             <h1 >Welcome</h1>
+          </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
